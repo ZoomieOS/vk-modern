@@ -1,0 +1,36 @@
+{
+  "name": "vk-2007-modern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZoomieOS/vk-modern.git"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "prettier --write"
+    ],
+    "*.go": [
+      "gofmt -w"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZoomieOS/vk-modern/issues"
+  },
+  "homepage": "https://github.com/ZoomieOS/vk-modern#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^20.4.1",
+    "@commitlint/config-conventional": "^20.4.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.8.1"
+  }
+}

@@ -1,0 +1,9 @@
+.env
+
+node_modules/
+vendor/
+
+apps/backend/bin/
+
+.DS_Store
+*.log
